@@ -8,6 +8,7 @@
 - SOP
 - PowerShell and Bash scripts
 - pfSense router 
+- Duplicati
 ---
 # Uses
 ---
