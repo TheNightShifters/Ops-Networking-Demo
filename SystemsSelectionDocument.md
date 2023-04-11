@@ -19,6 +19,7 @@
 - SOP provides order and structure, can be referred back to in case an unfamiliar situation occurs.
 - PowerShell and Bash provide easy automation for both linux and windows, rendering the team more efficient and effective. PowerShell also has an intuitive GUI in the form of the ISE.
 - pfSense is free, light, and effective.
+- Duplicati is an intuitive, easy to learn, easy to use backup solution that allows you to schedule backups to any local or networked drive easily and for free.
 ----
 # MVP
 ---
