@@ -4,10 +4,6 @@ Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled True
 Set-MpPreference -DisableRealtimeMonitoring $false
 #Updates Windows Defender signature to provide up to date protection
 Update-MpSignature
-#sets variable interfaceIndex to represent current network adapter index number
-$interfaceIndex = (Get-NetAdapter).ifIndex
-#Configures DNS server address to use Google's public DNS
-Set-DnsClientServerAddress -InterfaceIndex $interfaceIndex -ServerAddresses "8.8.8.8"
 #Disables SMBV1, an insecure protocol
 Set-SmbServerConfiguration -EnableSMB1Protocol $false -Force
 # Enables RDP by setting value of FDenyTSConnections to 0 in Windows Registry
