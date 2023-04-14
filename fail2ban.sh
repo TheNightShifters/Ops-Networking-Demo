@@ -1,9 +1,9 @@
+#!/bin/bash 
+
 #Script:                       Script - Final Assignment 
 #Author:                       Jasmine Garcia
 #Date of latest revision:      April 13, 2023
 #Purpose:                      Configure Fail2Ban
-
-#!/bin/bash 
 
 #Ubuntu: Install and configure Fail2Ban for increased security.
 
