@@ -30,6 +30,6 @@ sudo nano /etc/fail2ban/jail.d/sshd.conf
 # ignoreip = whitelist-IP
 
 #Apply Chnages
-$ sudo systemctl restart fail2ban
+sudo systemctl restart fail2ban
 
 #Resource: https://webdock.io/en/docs/how-guides/security-guides/how-configure-fail2ban-common-services
