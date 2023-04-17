@@ -1,3 +1,9 @@
+#Author:Sam Allan
+#Date of last revision:4/10/2023
+#Purpose:Perform firewall setup and enable rdp on new flyhomes computers
+
+#MAIN
+
 #Enables Windows Firewall for all network profiles
 Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled True
 #Enables Microsoft Defender Antivirus realtime monitoring, providing continuous protection
@@ -12,3 +18,5 @@ Set-ItemProperty -Path "HKLM:\System\CurrentControlSet\Control\Terminal Server" 
 Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
 #Sets power scheme to high performance
 powercfg.exe /setactive 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c
+
+#END
